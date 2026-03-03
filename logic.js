@@ -8,7 +8,7 @@ function reset() {
     let result = document.getElementById("result")
     result.textContent = "Play Game"
     let score = document.getElementById("scoreCard")
-    score.textContent = ""
+    score.textContent = "Player: 0 Computer: 0"
 }
 
 function check() {
